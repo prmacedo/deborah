@@ -1,0 +1,105 @@
+#banner-1 {
+  background-image: url('../assets/img/banner-1.jpg');
+  background-size: cover;
+
+  width: 100%;
+  
+  height: 80vh;
+}
+
+
+/* WELCOME */
+#welcome {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  background-color: var(--secondary);
+}
+
+#welcome-cards {
+  position: absolute;
+  top: -7rem;
+}
+
+.welcome-card {
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 20rem;  
+  height: 15rem;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#welcome-card-1 { background-image: url('../assets/img/estetica.jpg'); }
+#welcome-card-2 { background-image: url('../assets/img/dermatologia.jpg'); }
+#welcome-card-3 { background-image: url('../assets/img/tricologia.jpg'); }
+#welcome-card-4 { background-image: url('../assets/img/nutricao.jpg'); }
+
+.welcome-card span {
+  position: relative;
+  z-index: 1;
+  
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+}
+
+.yellow-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--primary-700);
+}
+
+/* ABOUT */
+#about {
+  padding: 16rem 0 5rem;
+}
+
+#about-img {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+}
+
+#about-img img {
+  position: absolute;
+  width: 100%;
+}
+
+#about p {
+  line-height: 1.75rem;
+}
+
+@media (max-width: 991.98px) {
+  #about {
+    padding-top: 28rem;
+  }
+
+  #about-img {
+    display: flex;justify-content: center;
+  }
+
+  #about-img img {
+    position: relative;
+    max-width: 35rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  #about {
+    padding-top: 60rem;
+  }
+}
