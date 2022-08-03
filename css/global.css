@@ -25,6 +25,7 @@
 }
 
 .border-25 { border-radius: 0.25rem; }
+.border-50 { border-radius: 0.5rem; }
 
 .txt-white { color: var(--white); }
 .txt-primary { color: var(--primary); }
@@ -32,10 +33,16 @@
 .txt-poppins { font-family: 'Poppins', sans-serif; }
 .txt-vidaloka { font-family: 'Vidaloka', serif; }
 
-.fsz-0 { font-size: 0.6rem; }
-.fsz-1 { font-size: 1.125rem; }
-.fsz-2 { font-size: 1.5rem; }
-.fsz-3 { font-size: 2.25rem; }
+.fsz-0 { font-size: 0.625rem; } /* 10px */
+.fsz-1 { font-size: 1.125rem; } /* 18px */
+.fsz-2 { font-size: 1.5rem; }   /* 24px */
+.fsz-3 { font-size: 2.25rem; }  /* 36px */
+
+.fw-medium { font-weight: 500; }
+
+.font-vidaloka {
+  font-family: Vidaloka, serif;
+}
 
 .text-justify { text-align: justify; }
 

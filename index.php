@@ -24,7 +24,7 @@
 <body>
   <?php require_once './partials/navbar.php' ?>
   
-  <main>
+  <main class="fsz-1">
     <div id="banner-1"></div>
 
     <div id="welcome" class="container-fluid">
@@ -75,6 +75,295 @@
             <div id="about-img">
               <img class="border-25" src="./assets/img/about.jpg" alt="Deborah">
             </div>  
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="treatment" class="container-fluid">
+      <p class="text-center font-vidaloka fsz-1">Conheça nossos tratamentos</p>
+      <h2  class="text-center font-vidaloka fsz-3">Tecnologia avançada em<br/>tratamentos corporais e faciais</h2>
+
+      <div id="categories" class="mt-5 mx-auto text-center fw-medium pb-4">
+        <span class="pb-4 px-3 mx-1 selected" onClick="selectCategory(this)" data-category="body">Para o corpo</span>
+        <span class="pb-4 px-3 mx-5" onClick="selectCategory(this)" data-category="face">Para a face</span>
+        <span class="pb-4 px-3 mx-1" onClick="selectCategory(this)" data-category="hair">Para o cabelo</span>
+      </div>
+
+      <div id="category-content" class="container">
+        <div id="body" class="row g-3 justify-content-center mx-auto">          
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Corpo 1</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>  
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Corpo 2</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Corpo 3</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Corpo 4</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Corpo 5</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Corpo 6</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>          
+          </div>
+        </div>
+
+        <div id="face" class="row g-3 justify-content-center mx-auto">          
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Face 1</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>  
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Face 2</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Face 3</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Face 4</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Face 5</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Face 6</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>          
+          </div>
+        </div>
+
+        <div id="hair" class="row g-3 justify-content-center mx-auto">          
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Cabelo 1</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>  
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Cabelo 2</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Cabelo 3</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Cabelo 4</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Cabelo 5</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="category-item">
+              <div class="category-item-icon">
+                <img src="./assets/icon/treatment.svg" alt="Tratamento">
+              </div>
+              <div class="category-item-content border-50 text-center">
+                <h2>Cabelo 6</h2>
+                <a href="">
+                  Saiba mais 
+                  <img src="./assets/icon/arrow.svg" alt="Saiba mais">
+                </a>
+              </div>
+            </div>          
           </div>
         </div>
       </div>
