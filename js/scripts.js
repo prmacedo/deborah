@@ -27,7 +27,4 @@ function selectCategory(spanSelected) {
   })
 
   document.querySelector(`#${selectedCategory}`).classList.remove('d-none')
-
-
-
 }

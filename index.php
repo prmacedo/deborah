@@ -183,7 +183,7 @@
           </div>
         </div>
 
-        <div id="face" class="row g-3 justify-content-center mx-auto">          
+        <div id="face" class="row g-3 justify-content-center mx-auto d-none">          
           <div class="col-12 col-sm-6 col-md-4">
             <div class="category-item">
               <div class="category-item-icon">
@@ -275,7 +275,7 @@
           </div>
         </div>
 
-        <div id="hair" class="row g-3 justify-content-center mx-auto">          
+        <div id="hair" class="row g-3 justify-content-center mx-auto d-none">          
           <div class="col-12 col-sm-6 col-md-4">
             <div class="category-item">
               <div class="category-item-icon">
