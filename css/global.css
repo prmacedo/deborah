@@ -108,6 +108,6 @@
   }
 
   .navbar-scrolled #contact-btn:hover {
-    background-color: var(--white-700);
+    filter: brightness(1.2);
   }
 }
