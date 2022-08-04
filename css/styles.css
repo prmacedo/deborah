@@ -50,6 +50,10 @@
   text-align: center;
 }
 
+.welcome-card:hover span {
+  color: var(--primary);
+}
+
 .yellow-filter {
   position: absolute;
   top: 0;
@@ -60,7 +64,14 @@
   height: 100%;
 
   background-color: var(--primary-700);
+  transition: background-color 0.3s;
 }
+
+.welcome-card:hover .yellow-filter {
+  background-color: var(--black-700);
+}
+
+
 
 /* ABOUT */
 #about {
