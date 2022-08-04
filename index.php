@@ -368,6 +368,19 @@
         </div>
       </div>
     </div>
+
+    <div id="banner-2">
+      <!-- <div class=""> -->
+        <div class="row container mx-auto">
+          <div class="col-12 col-md-6">
+            <p class="font-vidaloka fsz-1">Nossos resultados</p>
+            <h2 class="font-vidaloka fsz-3">Atinja as suas metas <br/>estéticas conosco!</h2>
+            <p class="mt-3 mb-5 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <a class="btn border-25 fsz-1" href="#contact">Entrar em contato</a>
+          </div>
+        </div>
+      <!-- </div> -->
+    </div>
   </main>
   
   <?php require_once './partials/footer.php' ?>
