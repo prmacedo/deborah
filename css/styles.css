@@ -122,6 +122,34 @@
   width: fit-content;
 }
 
+#categories span {
+  transition: color 0.3s;
+}
+
+#categories span:hover {
+  color: var(--primary);
+}
+
+#categories span::before {
+  content: '';
+  position: absolute;
+  
+  bottom: -0.25rem;
+  left: 50%;
+
+  width: 0;
+  height: 0.25rem;
+
+  background-color: var(--primary);
+  transition: width 0.3s, left 0.3s;
+}
+
+#categories span:hover::before {
+  left: 0;
+  width: 100%;
+}
+
+#categories span,
 #categories span.selected {
   position: relative;
 }
