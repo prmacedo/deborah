@@ -381,6 +381,43 @@
         </div>
       <!-- </div> -->
     </div>
+
+    <div id="experts" class="container text-center">
+      <p class="font-vidaloka fsz-1 m-0 mb-1">Time</p>
+      <h2 class="font-vidaloka fsz-3 mb-5">Nossas especialistas</h2>
+
+      <div id="experts-card-list" class="row justify-content-center">
+        <div class="expert-card-item col-12 col-md-6 col-lg-4">
+          <div class="expert-card-item-content">
+            <img src="./assets/img/especialista-1.jpg" alt="Nome da pessoa">
+            <div class="border-50">
+              <p class="font-vidaloka fsz-3">Nome da pessoa</p>
+              <p class="fsz-1">Especialidade</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card-item col-12 col-md-6 col-lg-4">
+          <div class="expert-card-item-content">
+            <img src="./assets/img/especialista-2.jpg" alt="Nome da pessoa">
+            <div class="border-50">
+              <p class="font-vidaloka fsz-3">Nome da pessoa</p>
+              <p class="fsz-1">Especialidade</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="expert-card-item col-12 col-md-6 col-lg-4">
+          <div class="expert-card-item-content">
+            <img src="./assets/img/especialista-3.jpg" alt="Nome da pessoa">
+            <div class="border-50">
+              <p class="font-vidaloka fsz-3">Nome da pessoa</p>
+              <p class="fsz-1">Especialidade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   
   <?php require_once './partials/footer.php' ?>

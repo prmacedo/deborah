@@ -280,3 +280,58 @@
   }
 }
 
+/* EXPERTS */
+.expert-card-item-content {
+  position: relative;
+}
+
+.expert-card-item-content div {
+  position: absolute;
+  left: 0;
+  bottom: -3rem;
+
+  padding: 2rem 3rem;
+  background-color: var(--secondary);
+}
+
+.expert-card-item:hover .expert-card-item-content div {
+  background-color: var(--primary);
+}
+
+.expert-card-item:hover .expert-card-item-content div p {
+  color: var(--black);
+}
+
+.expert-card-item-content div p {
+  color: var(--primary);
+}
+
+.expert-card-item-content div p+p {
+  color: var(--white);
+}
+
+.expert-card-item-content img {
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .expert-card-item {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .expert-card-item-content div p {
+    font-size: 1.5rem;
+  }
+  
+  .expert-card-item-content div p+p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .expert-card-item-content div {
+    padding: 1rem 2rem;
+  }
+}
