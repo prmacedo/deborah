@@ -12,6 +12,10 @@
   <!-- Hover.css -->
   <link rel="stylesheet" href="./css/hover-min.css">
 
+  <!-- Owl Carousel -->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
   <!-- Fontes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -418,6 +422,54 @@
         </div>
       </div>
     </div>
+
+    <div id="comments" class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <p class="font-vidaloka fsz-1">Depoimentos</p>
+          <h2 class="font-vidaloka fsz-3">O que nosso pacientes falam sobre nós</h2>
+        </div>
+
+        <div class="col-12 col-md-8">
+          <div class="owl-carousel owl-theme">
+            <div class="item border-50 p-5">
+              <p class="fsz-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum doloribus aspernatur doloremque cumque ex alias quas nihil, qui eius tempora harum culpa vitae maiores reiciendis unde. Saepe aliquam in deleniti ut, est quod magni consequuntur, commodi rem natus tempora officia a expedita reprehenderit illo eaque dolorum. Modi, repellat cumque!</p>
+
+              <p class="fsz-1 mb-0 mt-5 text-justify">Nome do cliente</p>
+              <img src="./assets/icon/quotes.svg" alt="Nome do cliente">
+            </div>
+            
+            <div class="item border-50 p-5">
+              <p class="fsz-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum doloribus aspernatur doloremque cumque ex alias quas nihil, qui eius tempora harum culpa vitae maiores reiciendis unde. Saepe aliquam in deleniti ut, est quod magni consequuntur, commodi rem natus tempora officia a expedita reprehenderit illo eaque dolorum. Modi, repellat cumque!</p>
+
+              <p class="fsz-1 mb-0 mt-5 text-justify">Nome do cliente</p>
+              <img src="./assets/icon/quotes.svg" alt="Nome do cliente">
+            </div>
+
+            <div class="item border-50 p-5">
+              <p class="fsz-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum doloribus aspernatur doloremque cumque ex alias quas nihil, qui eius tempora harum culpa vitae maiores reiciendis unde. Saepe aliquam in deleniti ut, est quod magni consequuntur, commodi rem natus tempora officia a expedita reprehenderit illo eaque dolorum. Modi, repellat cumque!</p>
+
+              <p class="fsz-1 mb-0 mt-5 text-justify">Nome do cliente</p>
+              <img src="./assets/icon/quotes.svg" alt="Nome do cliente">
+            </div>
+            
+            <div class="item border-50 p-5">
+              <p class="fsz-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum doloribus aspernatur doloremque cumque ex alias quas nihil, qui eius tempora harum culpa vitae maiores reiciendis unde. Saepe aliquam in deleniti ut, est quod magni consequuntur, commodi rem natus tempora officia a expedita reprehenderit illo eaque dolorum. Modi, repellat cumque!</p>
+
+              <p class="fsz-1 mb-0 mt-5 text-justify">Nome do cliente</p>
+              <img src="./assets/icon/quotes.svg" alt="Nome do cliente">
+            </div>
+
+            <div class="item border-50 p-5">
+              <p class="fsz-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum doloribus aspernatur doloremque cumque ex alias quas nihil, qui eius tempora harum culpa vitae maiores reiciendis unde. Saepe aliquam in deleniti ut, est quod magni consequuntur, commodi rem natus tempora officia a expedita reprehenderit illo eaque dolorum. Modi, repellat cumque!</p>
+
+              <p class="fsz-1 mb-0 mt-5 text-justify">Nome do cliente</p>
+              <img src="./assets/icon/quotes.svg" alt="Nome do cliente">
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
   </main>
   
   <?php require_once './partials/footer.php' ?>
@@ -425,5 +477,26 @@
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="./js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./js/owl.carousel.min.js"></script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+      // stagePadding: 100,
+      // loop: true,
+      margin: 10,
+      nav: false,
+      dots: true,
+      startPosition: 0,
+      responsive:{
+        0: {
+          items: 1
+        },
+        768: {
+          items: 2,
+          stagePadding: 50
+        }
+      }
+    })
+  </script>
 </body>
 </html>
