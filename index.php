@@ -577,6 +577,10 @@
         </div>
       </div>
     </div>
+
+    <div id="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4438263902257!2d-38.488914!3d-13.007384599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160355b877d87f%3A0x653ecd27049586c8!2sR.%20Alagoinhas%2C%20401%20-%20Rio%20Vermelho%2C%20Salvador%20-%20BA%2C%2041204-095!5e0!3m2!1spt-BR!2sbr!4v1660278734715!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
   </main>
   
   <?php require_once './partials/footer.php' ?>
