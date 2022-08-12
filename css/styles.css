@@ -477,5 +477,7 @@
 /* MAP */
 #map iframe {
   width: 100%;
+  height: 20rem;
   margin: 0;
+  display: block;
 }
