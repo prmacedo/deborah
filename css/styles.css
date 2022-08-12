@@ -357,3 +357,48 @@
   height: 2rem;
   width: 2rem;
 }
+
+/* Blog */
+#blog {
+  padding-top: 6rem;
+}
+
+#blog img {
+  width: 100%;
+}
+
+#blog .row div {
+  position: relative;
+  cursor: pointer;
+}
+
+#blog .row div a > div {
+  position: absolute;
+  bottom: -10%;
+  width: 90%;
+  background-color: var(--secondary);
+  transition: 0.3s background-color;
+}
+
+#blog .row div a > div h3 {
+  color: var(--primary);
+  transition: 0.3s color;
+
+}
+
+#blog .row div a > div p {
+  color: var(--white);
+  transition: 0.3s color;
+}
+
+#blog .row > div:hover a > div {
+  background-color: var(--primary);
+}
+
+#blog .row > div:hover a > div h3 {
+  color: var(--black);
+}
+
+#blog .row > div:hover a > div p {
+  color: var(--black);
+}

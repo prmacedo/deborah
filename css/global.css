@@ -23,6 +23,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 .border-25 { border-radius: 0.25rem; }
@@ -34,7 +36,7 @@
 .txt-poppins { font-family: 'Poppins', sans-serif; }
 .txt-vidaloka { font-family: 'Vidaloka', serif; }
 
-.fsz-0 { font-size: 0.625rem; } /* 10px */
+.fsz-0 { font-size: 0.875rem; } /* 14px */
 .fsz-1 { font-size: 1.125rem; } /* 18px */
 .fsz-2 { font-size: 1.5rem; }   /* 24px */
 .fsz-3 { font-size: 2.25rem; }  /* 36px */
@@ -46,6 +48,10 @@
 }
 
 .text-justify { text-align: justify; }
+
+/* Owl Carousel */
+.owl-carousel .owl-stage-outer {padding-bottom: 8px;}
+.owl-theme .owl-nav.disabled+.owl-dots {margin-top: 0;}
 
 /* NAVBAR */
 .navbar {

@@ -470,6 +470,43 @@
         </div>
       </div>      
     </div>
+
+    <div id="blog" class="container">
+      <p class="font-vidaloka text-center fsz-1 mb-2">Blog</p>
+      <h2 class="font-vidaloka text-center fsz-3 mb-5">Nossos melhores assuntos</h2>
+
+      <div class="row gy-5 justify-content-center">
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="#blog">
+            <img src="./assets/img/blog-1.jpg" alt="Título">
+            <div class="py-4 px-3 border-50">
+              <h3 class="font-vidaloka m-0 fsz-1">Título do assunto do blog</h3>
+              <p class="fsz-0 m-0 mt-3">Março 05, 2022</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="#blog">
+            <img src="./assets/img/blog-2.jpg" alt="Título">
+            <div class="py-4 px-3 border-50">
+              <h3 class="font-vidaloka m-0 fsz-1">Título do assunto do blog</h3>
+              <p class="fsz-0 m-0 mt-3">Março 05, 2022</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+          <a href="#blog">
+            <img src="./assets/img/blog-3.jpg" alt="Título">          
+            <div class="py-4 px-3 border-50">
+              <h3 class="font-vidaloka m-0 fsz-1">Título do assunto do blog</h3>
+              <p class="fsz-0 m-0 mt-3">Março 05, 2022</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
   </main>
   
   <?php require_once './partials/footer.php' ?>
