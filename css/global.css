@@ -27,6 +27,15 @@
   font-family: 'Poppins', sans-serif;
 }
 
+input.form-control,
+textarea.form-control {
+  padding: 1rem 2rem;
+}
+
+textarea.form-control {
+  min-height: 7rem;
+}
+
 .border-25 { border-radius: 0.25rem; }
 .border-50 { border-radius: 0.5rem; }
 

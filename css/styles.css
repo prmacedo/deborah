@@ -453,3 +453,23 @@
 #contact-info > div:first-of-type a {
   text-decoration: underline;
 }
+
+#submit-btn {
+  background-color: var(--primary);
+  color: var(--black);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border: none;
+
+  transition: 0.3s background-color;  
+}
+
+#submit-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #email-link {
+    font-size: 1rem;
+  }
+}

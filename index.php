@@ -511,7 +511,7 @@
     <div id="contact">
       <div class="container">
         <div class="row px-4 py-5">
-          <div class="col-12 col-md-4">
+          <div class="col-12 col-lg-4">
             <div class="title">
               <p class="m-0 font-vidaloka fsz-1">Contato</p>
               <h2 class="m-0 font-vidaloka fsz-3">Fale Conosco</h2>       
@@ -531,7 +531,7 @@
                 <img src="./assets/icon/email.svg" alt="E-mail">
                 <div class="d-flex flex-column">
                   <b>E-mail para contato</b>
-                  <a href="mailto:contato@dominio.com.br">contato@dominio.com.br</a>
+                  <a id="email-link" href="mailto:contato@dominio.com.br">contato@dominio.com.br</a>
                 </div>
               </div>
 
@@ -545,8 +545,34 @@
             </div>
           </div>
 
-          <div class="col-12 col-md-8">
+          <div class="col-12 col-lg-8 mt-5">
+            <form action="" method="post">
+              <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-3">                
+                  <input name="name" type="text" class="form-control" placeholder="Seu nome" required>
+                </div>
 
+                <div class="col-12 col-md-6">                
+                  <input name="email" type="email" class="form-control" placeholder="Seu e-mail" required>
+                </div>
+              </div>
+              
+              <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-3">                
+                  <input name="tel" type="text" class="form-control" placeholder="Seu telefone" required>
+                </div>
+
+                <div class="col-12 col-md-6">                
+                  <input name="tel" type="text" class="form-control" placeholder="Seu assunto" required>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Como podemos te ajudar?"></textarea>
+              </div>
+
+              <button id="submit-btn" class="py-3 px-4 border-50" type="submit">Enviar</button>
+            </form>
           </div>
         </div>
       </div>
