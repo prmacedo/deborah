@@ -402,3 +402,54 @@
 #blog .row > div:hover a > div p {
   color: var(--black);
 }
+
+/* CONTACT */
+#contact {
+  margin-top: 7rem;
+  position: relative;
+}
+
+#contact > div {
+  position: relative;
+  z-index: 1;
+
+  background-color: var(--white);
+}
+
+#contact::before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: var(--primary);
+  height: 100%;
+  width: 50vw;
+
+  z-index: 0;
+}
+
+#contact .title {
+  color: var(--secondary);
+}
+
+#contact-info > div {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  gap: 2rem;
+}
+
+#contact-info > div b {
+  color: var(--text);
+}
+
+#contact-info > div a {
+  width: fit-content;
+  color: var(--text-detail);
+  text-decoration: none;
+}
+
+#contact-info > div:first-of-type a {
+  text-decoration: underline;
+}

@@ -507,6 +507,50 @@
         </div>
       </div>
     </div>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row px-4 py-5">
+          <div class="col-12 col-md-4">
+            <div class="title">
+              <p class="m-0 font-vidaloka fsz-1">Contato</p>
+              <h2 class="m-0 font-vidaloka fsz-3">Fale Conosco</h2>       
+              <p class="m-0 my-4 text-justify">Estamos disponíveis responder suas perguntas e te atender da melhor maneira.</p>
+            </div>
+
+            <div id="contact-info">
+              <div class="mb-3">
+                <img src="./assets/icon/like.svg" alt="Linktree">
+                <div class="d-flex flex-column">
+                  <b>Siga-nos nas redes</b>
+                  <a href="#">Linktree</a>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <img src="./assets/icon/email.svg" alt="E-mail">
+                <div class="d-flex flex-column">
+                  <b>E-mail para contato</b>
+                  <a href="mailto:contato@dominio.com.br">contato@dominio.com.br</a>
+                </div>
+              </div>
+
+              <div>
+                <img src="./assets/icon/telefone.svg" alt="Linktree">
+                <div class="d-flex flex-column">
+                  <b>Telefone</b>
+                  <a href="tel:(00) 9 0000-0000">(00) 9 0000-0000</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-8">
+
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   
   <?php require_once './partials/footer.php' ?>
