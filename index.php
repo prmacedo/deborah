@@ -425,12 +425,12 @@
 
     <div id="comments" class="container">
       <div class="row">
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-lg-4">
           <p class="font-vidaloka fsz-1">Depoimentos</p>
           <h2 class="font-vidaloka fsz-3">O que nosso pacientes falam sobre nós</h2>
         </div>
 
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-lg-8">
           <div class="owl-carousel owl-theme">
             <div class="item border-50 p-5">
               <p class="fsz-1 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, nostrum doloribus aspernatur doloremque cumque ex alias quas nihil, qui eius tempora harum culpa vitae maiores reiciendis unde. Saepe aliquam in deleniti ut, est quod magni consequuntur, commodi rem natus tempora officia a expedita reprehenderit illo eaque dolorum. Modi, repellat cumque!</p>
