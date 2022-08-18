@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -546,7 +549,7 @@
           </div>
 
           <div class="col-12 col-lg-8 mt-5">
-            <form action="" method="post">
+            <form action="./php/sendmail.php" method="post">
               <div class="row mb-3">
                 <div class="col-12 col-md-6 mb-3">                
                   <input name="name" type="text" class="form-control" placeholder="Seu nome" required>
@@ -559,19 +562,32 @@
               
               <div class="row mb-3">
                 <div class="col-12 col-md-6 mb-3">                
-                  <input name="tel" type="text" class="form-control" placeholder="Seu telefone" required>
+                  <input name="tel" type="text" class="form-control" placeholder="Seu telefone" onKeyUp="telephoneMask(this)" required>
                 </div>
 
                 <div class="col-12 col-md-6">                
-                  <input name="tel" type="text" class="form-control" placeholder="Seu assunto" required>
+                  <input name="subject" type="text" class="form-control" placeholder="Seu assunto" required>
                 </div>
               </div>
 
               <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Como podemos te ajudar?"></textarea>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Como podemos te ajudar?" required></textarea>
               </div>
 
               <button id="submit-btn" class="py-3 px-4 border-50" type="submit">Enviar</button>
+
+              <?php if (isset($_SESSION["msg"])) { ?>
+                <div class="contact-return <?php echo $_SESSION["class"]?>">
+                  <?php 
+                    echo $_SESSION["msg"] ;
+                    session_unset();
+                    session_destroy();
+                  ?>
+                  <span onclick="closeReturn()" class="ms-3">
+                    <img src="./assets/icon/close.svg" alt="Fechar mensagem">
+                  </span>
+                </div>  
+              <?php } ?>
             </form>
           </div>
         </div>

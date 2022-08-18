@@ -528,3 +528,30 @@
   margin: 0;
   display: block;
 }
+
+/* RETURN FORM */
+.contact-return {
+  position: fixed;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--white);
+  z-index: 1000;
+  padding: 1rem 1.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-return img {
+  width: 1.25rem;
+  cursor: pointer;
+}
+
+.contact-return.success {
+  background-color: #3fd844;
+}
+
+.contact-return.error {
+  background-color: #e44545;
+}

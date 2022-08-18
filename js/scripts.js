@@ -28,3 +28,16 @@ function selectCategory(spanSelected) {
 
   document.querySelector(`#${selectedCategory}`).classList.remove('d-none')
 }
+
+function telephoneMask(inputTel) {
+  inputTel.value = String(inputTel.value)
+    .replace(/\D/g, '')
+    .replace(/(\d{2})(\d)/, '($1) $2')
+    .replace(/(\d{4})(\d)/, '$1-$2')
+    .replace(/(\d{4})-(\d)(\d{4})/, '$1$2-$3')
+    .replace(/(-\d{4})\d+?$/, '$1');
+}
+
+function closeReturn() {
+  document.querySelector('.contact-return').style.display = 'none'
+}
